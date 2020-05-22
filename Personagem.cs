@@ -6,7 +6,7 @@ namespace PrimeiroPoo
 
         public int idade = 35;
 
-        public string armadura;
+        public string armadura = "Blending Edge";
 
 
         public string Atacar(){

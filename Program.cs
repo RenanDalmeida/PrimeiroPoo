@@ -6,7 +6,14 @@ namespace PrimeiroPoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Personagem tony = new Personagem();
+
+            Console.WriteLine(tony.nome);
+
+            Console.WriteLine(tony.armadura);
+
+            Console.WriteLine(tony.Atacar());
+
         }
     }
 }
